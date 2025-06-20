@@ -12,6 +12,7 @@ const Navbar = () => {
           <h1 className="font-bwgradual font-extrabold lg:text-[34px] text-black lg:leading-[34px] md:text-xl md:leading-6 text-xl leading-5">
             DEVLOP.ME
           </h1>
+          {/* link declare  */}
           <div className="flex items-center md:gap-5 sm:gap-3 gap-2 font-sporting font-normal">
             {navList.map((link, idx) => (
               <Link
@@ -22,8 +23,9 @@ const Navbar = () => {
                 {link?.name}
               </Link>
             ))}
+            {/* start project button different design  */}
             <div className="relative ml-4">
-              <Button className="py-4 pr-2 pl-[46px]">Start Project</Button>
+              <Button className="py-4 pr-2 pl-[46px] font-normal">Start Project</Button>
               <span className="absolute top-1/2 -translate-y-1/2 left-0 border rounded-full w-[38px] h-[38px] flex items-center justify-center">
                 {" "}
                 <IoIosArrowRoundForward className="text-4xl" />
