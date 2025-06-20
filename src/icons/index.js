@@ -1,2 +1,2 @@
-export   { IoIosArrowRoundForward } from "react-icons/io";
-export { FaPhoneAlt,FaFacebook,FaInstagram,FaTwitter   } from "react-icons/fa";
+export   { IoIosArrowRoundForward , IoIosArrowRoundBack} from "react-icons/io";
+export { FaPhoneAlt,FaFacebook,FaInstagram,FaTwitter,FaArrowDown   } from "react-icons/fa";

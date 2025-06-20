@@ -1,7 +1,6 @@
  
 import Hero from "@/components/home/hero/Hero";
-import Skill from "@/components/home/skill/Skill";
-import Image from "next/image";
+import Skill from "@/components/home/skill/Skill"; 
 
 export default function Home() {
   return (
